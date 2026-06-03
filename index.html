@@ -1,636 +1,652 @@
-<!-- <!DOCTYPE html> -->
+```html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Sojeong Gwak | AI Engineer & Researcher</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  <!-- Materialize -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
 
-    gtag('config', 'UA-126939217-2');
-  </script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <!-- SEO -->
+  <meta name="description"
+    content="AI Engineer | Computer Vision | Multi-modal Learning | 3D Human Pose Reconstruction" />
+
   <meta property="og:title" content="Sojeong Gwak | AI Engineer & Researcher" />
-  <meta property="og:description"
-      content="AI Engineer | Computer Vision | Multi-modal Learning | 3D Human Pose Reconstruction" />  
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="https://g-so126.github.io/" />
-  <meta property="og:site_name" content="Sojeong Gwak | AI Engineer & Researcher" />
-  <meta property="article:publisher" content="https://g-so126.github.io/" />
-  <meta property="og:image" content="https://g-so126.github.io/assets/img/profile.jpg" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
+  <meta property="og:image" content="/assets/img/profile.jpg" />
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+
+  <!-- ==================== SIDEBAR ==================== -->
+
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
 
       <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        <a href="#intro">
+          <img src="/assets/img/passport-new.jpg"
+            class="circle img-responsive profile-pic"
+            alt="Sojeong Gwak">
         </a>
       </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        <a href="#about" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-person small"></i>
+          <span>About</span>
+        </a>
       </li>
 
       <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
+        <a href="#experience" class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-trending-up small"></i>
+          <span>Experience</span>
+        </a>
       </li>
 
       <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
+        <a href="#skills" class="waves-effect waves-dark teal-text">
+          <i class="mdi-action-assessment small"></i>
+          <span>Skills</span>
+        </a>
       </li>
 
       <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        <a href="#projects" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i>
+          <span>Projects</span>
+        </a>
       </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!--  <a aria-label="Open resume PDF in a new tab" href="https://g-so126.github.io/assets/resume/Sojeong_Gwak_Resume.pdf"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="waves-effect waves-dark teal-text">
-       <i class="mdi-file-folder-open small"></i>
-     <span>Resume</span>
-  </a>
--->
-</li>
-</ul>
-</nav>
 
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Gwak
-        Sojeong</a><span class="black-text">AI Engineer & Researcher</span>
-    </div>
-  </nav>
+      <li class="bold">
+        <a href="#education" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-school small"></i>
+          <span>Education</span>
+        </a>
+      </li>
 
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
+        <a href="#contact" class="waves-effect waves-dark teal-text">
+          <i class="mdi-content-mail small"></i>
+          <span>Contact</span>
+        </a>
       </li>
+
       <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        <a href="/assets/resume/Sojeong_Gwak_Resume.pdf"
+          target="_blank"
+          class="waves-effect waves-dark teal-text">
+
+          <i class="mdi-file-folder-open small"></i>
+          <span>Resume</span>
+        </a>
       </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Resume in a new tab"
-          href="/assets/resume/Sojeong_Gwak_Resume.pdf" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
+
     </ul>
   </nav>
 
-  <!-- Main Content-->
+  <!-- ==================== MOBILE NAV ==================== -->
+
+  <nav class="hide-on-large-only trigger z-depth-1">
+    <a href="#" data-activates="slide-out" class="button-collapse">
+      <i class="mdi-navigation-menu"></i>
+    </a>
+
+    <div class="name-title">
+      <a id="name" href="#" class="teal-text">
+        Sojeong Gwak
+      </a>
+      <span class="black-text">
+        AI Engineer & Researcher
+      </span>
+    </div>
+  </nav>
+
+  <nav class="hide-on-large-only">
+    <ul id="slide-out" class="side-nav">
+
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- ==================== MAIN ==================== -->
+
   <main>
-    <!-- First Section: Heading lines and image -->
+
+    <!-- INTRO -->
+
     <section id="intro" class="section scrollspy full-height">
+
       <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Sojeong Gwak.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>인공지능공학을 전공하며 다중 모달(Multi-modal) 학습 및 3D 데이터 분석 기술에 깊은 관심을 두고 있습니다. 향후 AI 분야의 전문 연구자 및 핵심 AI 개발자로 성장하는 것을 목표로 합니다.</h5>
-            </div>
-            <div class="social">
-              <a href="https://github.com/g-so126/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
 
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
+      <div class="container">
+
+        <div class="content section-padding valign"
+          style="margin-left:10%; margin-top:50px;">
+
+          <div class="caption">
+
+            <h2>
+              Hi, I'm
+              <span class="teal">
+                Sojeong Gwak
+              </span>
+            </h2>
+
+            <h5 style="color:#fff">
+              A
+              <span class="typing"
+                style="font-weight:300;color:#c084fc;">
+              </span>
+            </h5>
+
+            <h5>
+              AI Engineering student passionate about
+              Multi-modal Learning,
+              Computer Vision,
+              and 3D Human Reconstruction.
+            </h5>
+
           </div>
+
+          <div class="social">
+
+            <a href="https://github.com/g-so126"
+              target="_blank">
+
+              <button class="icon-btn github">
+                <i class="fa fa-github"></i>
+              </button>
+
+            </a>
+
+          </div>
+
+          <div class="buttons">
+
+            <a href="#about" class="readme">
+              Read More
+            </a>
+
+            <a href="#contact" class="contactme">
+              Contact Me
+            </a>
+
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- Second Section: About -->
+    <!-- ABOUT -->
+
     <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
+
+      <h3 class="page-title white-text teal">
+        About
+      </h3>
+
       <div class="container flow-text">
-        <!-- <blockquote>
-          <h2>
-            An AI Engineering Student passionate about Multi-modal Learning, Computer Vision, and 3D Human Pose Reconstruction.
-          </h2>
-        </blockquote> -->        
+
         <p>
-          조선대학교에서 인공지능공학전공에 재학 중인 3학년 대학생입니다. 
-          저는 문제를 분석하고 해결하는 과정, 그리고 인공지능 기술의 활용 범용성에 큰 흥미를 가지고 있습니다. 항상 맡은 일에 최선을 다하며 성장하기 위해 노력합니다. 
-          
-          학부 과정 동안 Python, C/C++, JavaScript 같은 언어를 학습하였으며, ML, DL, Algorithm 등 전공 과목을 통해 인공지능 및 소프트웨어 개발 역량을 쌓아왔습니다. 또한 현재는 Multi-modal Learning 분야에 관심을 가지고 관련 프로젝트를 수행하며 Computer Vision 및 AI 관련 연구 지식을 확장하고 있습니다.
-          특히 이미지와 영상으로부터 사람의 움직임을 이해하고 3차원 공간에서 재구성하는 기술, 그리고 다양한 형태의 데이터를 통합적으로 활용하는 인공지능 시스템 개발에 큰 관심을 가지고 있습니다. 
-          앞으로 Computer Vision, Robotics, AI Research 분야에서 전문성을 갖춘 연구자 및 엔지니어로 성장하는 것을 목표로 하고 있습니다.
+          조선대학교 인공지능공학전공 3학년에 재학 중이며
+          Computer Vision,
+          Multi-modal Learning,
+          3D Human Pose Reconstruction 분야에
+          관심을 가지고 있습니다.
         </p>
+
         <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, JavaScript, C, C++</li>
-            <li><b>AI / ML:</b> PyTorch, NumPy, Pandas, scikit-learn, Keras, TensorFlow</li>
-            <li><b>Web:</b> HTML/CSS</li>
-            <li><b>Computer Vision:</b> Human Pose Estimation, SMPL, 3D Reconstruction</li>
-            <li><b>Tools & Technologies:</b> Git/GitHub, Jupyter Notebook</li>
-          </ul>
-      </p>
-          
-        <!-- <p>
-          
-          AI Engineering student interested in Machine Learning, Computer Vision, and Multi-modal Learning. Skilled in Python and PyTorch, with experience analyzing and implementing 3D Human Pose Estimation and Reconstruction pipelines.
-        </p> -->
-        <p>
-          인공지능 연구와 개발 역량을 바탕으로 끊임없이 배우고 성장하며, AI 시스템 개발에 기여할 수 있는 기회를 찾고 있습니다.
+          Python, C/C++, JavaScript 기반의 개발 경험과
+          Machine Learning, Deep Learning,
+          Algorithm 분야의 학습 경험을 보유하고 있습니다.
         </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
+
+        <ul>
+          <li><b>Languages:</b> Python, JavaScript, C, C++</li>
+          <li><b>AI / ML:</b> PyTorch, TensorFlow, scikit-learn</li>
+          <li><b>Computer Vision:</b> Pose Estimation, SMPL</li>
+          <li><b>Tools:</b> Git, GitHub, Jupyter Notebook</li>
+        </ul>
+
+        <p>
+          AI Researcher 및 AI Engineer로 성장하는 것을
+          목표로 하고 있습니다.
+        </p>
+
       </div>
+
     </section>
 
+    <!-- EDUCATION -->
 
-    <!-- Third Section: Education -->
     <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <div class="card">
-              <div class="card-content">
-                <span class="card-title teal-text">
-                  Chosun University
-                </span>
-                <p>
-                  Department of Artificial Intelligence Engineering
-                </p>
-                <br>
-                <p>
-                  <b>Year:</b>
-                  3rd Year Undergraduate
-                </p>
-                <br>
-                <p>
-                  <b>Relevant Coursework:</b>
-                </p>
-                <ul>
-                  <li>Machine Learning</li>
-                  <li>Deep Learning</li>
-                  <li>Algorithms</li>
-                  <li>Data Structures</li>
-                  <li>Web Programming</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Fourth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
+      <h3 class="page-title white-text teal">
+        Education
+      </h3>
+
       <div class="container">
+
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">
-              Programming Languages
-            </h4>
+
+            <span class="card-title teal-text">
+              Chosun University
+            </span>
+
+            <p>
+              Department of Artificial Intelligence Engineering
+            </p>
+
+            <br>
+
+            <p>
+              <b>Year:</b>
+              3rd Year Undergraduate
+            </p>
+
+            <br>
+
+            <p>
+              <b>Relevant Coursework:</b>
+            </p>
+
             <ul>
-              <li>Python (Intermediate)</li>
-              <li>C/C++ (Basic)</li>
-              <li>JavaScript (Basic)</li>
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+              <li>Web Programming</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        Skills
+      </h3>
+
+      <div class="container">
+
+        <div class="card">
+          <div class="card-content">
+            <h4>Programming Languages</h4>
+
+            <ul>
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>JavaScript</li>
             </ul>
           </div>
         </div>
+
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">
-              AI / Machine Learning
-            </h4>
+            <h4>AI / Machine Learning</h4>
+
             <ul>
               <li>PyTorch</li>
+              <li>TensorFlow</li>
               <li>scikit-learn</li>
-              <li>NumPy</li>
               <li>Pandas</li>
+              <li>NumPy</li>
             </ul>
           </div>
         </div>
+
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">
-              Computer Vision
-            </h4>
+            <h4>Computer Vision</h4>
+
             <ul>
               <li>Human Pose Estimation</li>
               <li>SMPL</li>
-              <li>3D Human Reconstruction</li>
+              <li>3D Reconstruction</li>
               <li>Multi-modal Learning</li>
             </ul>
           </div>
         </div>
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">
-              Web
-            </h4>
-            <ul>
-              <li>HTML/CSS (Basic)</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">
-              Tools
-            </h4> 
-            <ul>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Jupyter Notebook</li>
-            </ul>
-          </div>
+```html
         </div>
       </div>
     </section>
 
+    <!-- PROJECTS -->
 
-    <!-- Fifth Section: Projects -->
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+
+      <h3 class="page-title white-text teal">
+        Projects
+      </h3>
+
       <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <div class="card">
-  <div class="card-content">
 
-    <span class="card-title teal-text">
-      3D Human Pose Reconstruction and Motion Understanding System
-    </span>
+        <!-- Project 1 -->
 
-    <p>
-      <b>Summary:</b>
-      End-to-end pipeline for reconstructing 3D human poses from images and videos using Human Pose Estimation and SMPL.
-    </p>
-
-    <br>
-
-    <p>
-      <b>Period:</b>
-      Mar 2026 – May 2026
-    </p>
-
-    <br>
-
-    <p>
-      <b>Tech Stack:</b>
-      Python, PyTorch, OpenCV, SMPL, Git
-    </p>
-
-    <br>
-
-    <h6><b>Role</b></h6>
-    <ul>
-      <li>Analyzed Human Pose Estimation frameworks</li>
-      <li>Implemented preprocessing and inference pipelines</li>
-      <li>Integrated SMPL-based 3D body reconstruction modules</li>
-      <li>Conducted performance analysis and visualization</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Key Features</b></h6>
-    <ul>
-      <li>2D keypoint extraction from images and videos</li>
-      <li>3D joint coordinate reconstruction</li>
-      <li>Multi-view pose analysis</li>
-      <li>Motion representation experiments</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Results</b></h6>
-    <ul>
-      <li>Built an end-to-end reconstruction pipeline</li>
-      <li>Established a workflow for evaluating pose estimation models</li>
-    </ul>
-
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-
-    <span class="card-title teal-text">
-      Fashion Recommendation System Benchmark Study
-    </span>
-
-    <p>
-      <b>Summary:</b>
-      Comparative study of deep learning-based fashion recommendation models using the Polyvore dataset.
-    </p>
-
-    <br>
-
-    <p>
-      <b>Period:</b>
-      Sep 2025 – Dec 2025
-    </p>
-
-    <br>
-
-    <p>
-      <b>Tech Stack:</b>
-      Python, PyTorch, Polyvore Dataset, NumPy, Pandas
-    </p>
-
-    <br>
-
-    <h6><b>Role</b></h6>
-    <ul>
-      <li>Analyzed OutfitGAN and related recommendation models</li>
-      <li>Conducted benchmarking experiments</li>
-      <li>Implemented preprocessing and evaluation pipelines</li>
-      <li>Compared recommendation performance metrics</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Key Features</b></h6>
-    <ul>
-      <li>Fashion compatibility prediction</li>
-      <li>Outfit recommendation analysis</li>
-      <li>Model benchmarking and comparison</li>
-      <li>Dataset preprocessing automation</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Results</b></h6>
-    <ul>
-      <li>Evaluated multiple recommendation approaches</li>
-      <li>Identified strengths and limitations of existing models</li>
-    </ul>
-
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-
-    <span class="card-title teal-text">
-      Model Context Protocol (MCP) Architecture Analysis
-    </span>
-
-    <p>
-      <b>Summary:</b>
-      Technical analysis of MCP architecture, communication flow, and AI agent integration mechanisms.
-    </p>
-
-    <br>
-
-    <p>
-      <b>Period:</b>
-      May 2026
-    </p>
-
-    <br>
-
-    <p>
-      <b>Tech Stack:</b>
-      MCP, AI Agents, LLM, Client-Server Architecture
-    </p>
-
-    <br>
-
-    <h6><b>Role</b></h6>
-    <ul>
-      <li>Studied MCP architecture and protocol design</li>
-      <li>Analyzed communication workflows</li>
-      <li>Investigated tool integration mechanisms</li>
-      <li>Prepared technical reports and presentations</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Key Features</b></h6>
-    <ul>
-      <li>Client-Server interaction analysis</li>
-      <li>Tool calling workflow investigation</li>
-      <li>Resource and prompt management study</li>
-      <li>AI agent ecosystem exploration</li>
-    </ul>
-
-    <br>
-
-    <h6><b>Results</b></h6>
-    <ul>
-      <li>Documented MCP operational flow</li>
-      <li>Produced architecture diagrams and technical summaries</li>
-    </ul>
-
-  </div>
-</div>
-
-    <!-- Seventh Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
         <div class="card">
           <div class="card-content">
+
+            <span class="card-title teal-text">
+              3D Human Pose Reconstruction and Motion Understanding System
+            </span>
+
+            <p>
+              <b>Summary:</b>
+              End-to-end pipeline for reconstructing 3D human poses
+              from images and videos using Human Pose Estimation and SMPL.
+            </p>
+
+            <br>
+
+            <p>
+              <b>Period:</b>
+              Mar 2026 – May 2026
+            </p>
+
+            <br>
+
+            <p>
+              <b>Tech Stack:</b>
+              Python, PyTorch, OpenCV, SMPL, Git
+            </p>
+
+            <br>
+
+            <h6><b>Role</b></h6>
+
+            <ul>
+              <li>Analyzed Human Pose Estimation frameworks</li>
+              <li>Implemented preprocessing pipelines</li>
+              <li>Integrated SMPL reconstruction modules</li>
+              <li>Conducted visualization and evaluation</li>
+            </ul>
+
+            <br>
+
+            <h6><b>Results</b></h6>
+
+            <ul>
+              <li>Built an end-to-end reconstruction workflow</li>
+              <li>Evaluated multiple pose estimation approaches</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="card">
+          <div class="card-content">
+
+            <span class="card-title teal-text">
+              Fashion Recommendation System Benchmark Study
+            </span>
+
+            <p>
+              <b>Summary:</b>
+              Comparative study of deep learning-based
+              fashion recommendation models.
+            </p>
+
+            <br>
+
+            <p>
+              <b>Period:</b>
+              Sep 2025 – Dec 2025
+            </p>
+
+            <br>
+
+            <p>
+              <b>Tech Stack:</b>
+              Python, PyTorch, Polyvore Dataset,
+              Pandas, NumPy
+            </p>
+
+            <br>
+
+            <h6><b>Role</b></h6>
+
+            <ul>
+              <li>Analyzed OutfitGAN architecture</li>
+              <li>Conducted benchmarking experiments</li>
+              <li>Implemented evaluation pipelines</li>
+              <li>Compared recommendation metrics</li>
+            </ul>
+
+            <br>
+
+            <h6><b>Results</b></h6>
+
+            <ul>
+              <li>Compared multiple recommendation models</li>
+              <li>Identified strengths and limitations</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+
+        <div class="card">
+          <div class="card-content">
+
+            <span class="card-title teal-text">
+              Model Context Protocol (MCP) Architecture Analysis
+            </span>
+
+            <p>
+              <b>Summary:</b>
+              Technical analysis of MCP architecture,
+              communication flow, and AI Agent integration.
+            </p>
+
+            <br>
+
+            <p>
+              <b>Period:</b>
+              May 2026
+            </p>
+
+            <br>
+
+            <p>
+              <b>Tech Stack:</b>
+              MCP, LLM, AI Agents, Client-Server Architecture
+            </p>
+
+            <br>
+
+            <h6><b>Role</b></h6>
+
+            <ul>
+              <li>Studied MCP protocol structure</li>
+              <li>Analyzed communication workflow</li>
+              <li>Investigated tool integration methods</li>
+              <li>Prepared technical documentation</li>
+            </ul>
+
+            <br>
+
+            <h6><b>Results</b></h6>
+
+            <ul>
+              <li>Documented MCP operational flow</li>
+              <li>Produced architecture diagrams</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section scrollspy">
+
+      <h3 class="page-title white-text teal">
+        Experience
+      </h3>
+
+      <div class="container">
+
+        <div class="card">
+          <div class="card-content">
+
             <span class="card-title teal-text">
               Academic & Research Activities
             </span>
+
             <ul>
               <li>Undergraduate AI Engineering Student</li>
               <li>Independent Research on Multi-modal Learning</li>
               <li>3D Human Pose Reconstruction Project</li>
-              <li>Fashion Recommendation System Benchmark Project</li>
+              <li>Fashion Recommendation Benchmark Study</li>
               <li>Voice-over / Dubbing Club Member</li>
             </ul>
+
           </div>
         </div>
+
       </div>
+
     </section>
 
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
+    <!-- CONTACT -->
+
+    <section id="contact"
+      class="section scrollspy full-height">
+
+      <h3 class="page-title white-text teal">
+        Contact
+      </h3>
+
       <div class="container">
+
         <p>
-          <a aria-label="Email Gwak" href="mailto:ggsj0106@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Gwak" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Gwak" href="mailto:ggsj0106@gmail.com"
-              class="hoverline">ggsj0106@gmail.com</a></a>
+
+          <a href="mailto:ggsj0106@gmail.com"
+            class="btn-floating btn-large waves-effect waves-light blue-grey">
+
+            <i class="fa fa-envelope"></i>
+
+          </a>
+
+          <a href="mailto:ggsj0106@gmail.com"
+            class="hoverline">
+
+            ggsj0106@gmail.com
+
+          </a>
+
         </p>
+
         <p>
-          <a aria-label="View Gwak on GitHub" href="https://github.com/g-so126" target="_blank"
-            data-position="top" data-tooltip="View Gwak on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Gwak on Github" href="https://github.com/g-so126" class="hoverline"
-              target="_blank">github.com/g-so126</a></a>
+
+          <a href="https://github.com/g-so126"
+            target="_blank"
+            class="btn-floating btn-large waves-effect waves-light blue-grey">
+
+            <i class="fa fa-github"></i>
+
+          </a>
+
+          <a href="https://github.com/g-so126"
+            target="_blank"
+            class="hoverline">
+
+            github.com/g-so126
+
+          </a>
+
         </p>
+
       </div>
+
     </section>
+
   </main>
 
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
+  <!-- Typed.js -->
+
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
+
+  <script>
+
+    var typed = new Typed('.typing', {
+
       strings: [
-  "AI Engineer",
-  "Computer Vision Researcher",
-  "3D Human Reconstruction Researcher",
-  "Multi-modal Learning Enthusiast"
-],
+        "AI Engineer",
+        "Computer Vision Researcher",
+        "3D Human Reconstruction Researcher",
+        "Multi-modal Learning Enthusiast"
+      ],
+
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
+
     });
+
   </script>
 
+  <!-- JQuery -->
 
-  <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
-</body>
+  <!-- Materialize -->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+
+  <script>
+
+    $(document).ready(function () {
+
+      $(".scrollspy").scrollSpy();
+
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      });
+
+    });
+
+  </script>
+
+</body>
 </html>
+
+
