@@ -1,23 +1,17 @@
 .profile-pic {
-  position: relative;
-  max-width:130px;
-  max-height:130px;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
-  border-radius: 50% !important;
-}
+  width: 110px !important;
+  height: auto !important;
 
-.profile-pic img {
-  width: 100%;
-  height: auto;
+  display: block;
+  margin: 10px auto 20px auto;
+
+  border: 3px solid rgba(0, 77, 64, 0.4);
+  border-radius: 8px !important;
+
+  object-fit: contain;
+
+  max-width: none;
+  max-height: none;
 }
 
 .tracker {
@@ -196,12 +190,12 @@ nav i {
 
 /* main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
+  padding-left: 170px;
 } */
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
+  padding-left: 170px;
 }
 
 dl {
@@ -220,7 +214,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 190px;
+  width: 170px;
 }
 
 ul.side-nav li {
@@ -252,16 +246,16 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
+  min-height: 170px;
+  padding: 20px 20px 20px;
 } */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
+  min-height: 9-170px;
+  padding: 20px 20px 20px;
 }
 
 ul.side-nav.fixed li.logo a {
