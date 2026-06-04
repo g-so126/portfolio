@@ -188,12 +188,12 @@ nav i {
 
 /* main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 170px;
+  padding-left: 190px;
 } */
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 170px;
+  padding-left: 190px;
 }
 
 dl {
@@ -212,7 +212,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 170px;
+  width: 190px;
 }
 
 ul.side-nav li {
@@ -244,7 +244,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 170px;
+  min-height: 190px;
   padding: 20px;
   text-align: center;
 } */
@@ -253,7 +253,7 @@ ul.side-nav.fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 170px;
+  min-height: 190px;
   padding: 20px;
   text-align: center;
 }
