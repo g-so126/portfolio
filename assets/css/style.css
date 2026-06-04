@@ -684,137 +684,165 @@ small {
 
 
 
-/* ==========================================
-   TECHWEAR / CYBER LIME THEME
-   ========================================== */
 
-/* Intro Background */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+TECHWEAR / CYBER LIME THEME OVERRIDE
+기존 CSS 맨 마지막에 추가
+========================================== */
+
+/* Intro Section */
 #intro.section {
-  background: #F6F7F8 !important;
-  position: relative;
+background: #F6F7F8 !important;
+position: relative;
 }
 
-/* Intro Text */
 #intro.section .container {
-  color: #1C1E22 !important;
+color: #1C1E22 !important;
 }
 
 #intro.section .container *:not(span) {
-  text-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+text-shadow: 0px 1px 3px rgba(0,0,0,0.15);
 }
 
-/* Highlight Box (Name Background) */
+/* Name Highlight */
 .teal {
-  background-color: #A8FF00 !important;
+background-color: #A8FF00 !important;
 }
 
-/* Accent Text */
 .teal-text {
-  color: #7FB800 !important;
+color: #7FB800 !important;
 }
 
 /* Links */
 a {
-  color: #7FB800;
+color: #7FB800 !important;
 }
 
 a.hoverline:hover {
-  border-bottom: 3px solid #A8FF00 !important;
+border-bottom: 3px solid #A8FF00 !important;
 }
 
-/* Sidebar Icons */
+/* Sidebar */
 ul.side-nav.fixed a {
-  color: #7FB800;
+color: #7FB800 !important;
 }
 
-/* Sidebar Active Menu */
 ul.table-of-contents li:not(.logo) a.active,
 ul.table-of-contents li:not(.logo) a:hover {
-  border-left: 3px solid #A8FF00;
-  background-color: #f5f5f5;
+border-left: 3px solid #A8FF00 !important;
+background-color: #f5f5f5;
 }
 
-/* Profile Image Border */
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
+color: #1C1E22 !important;
+}
+
+/* Profile */
 .profile-pic {
-  border: 3px solid rgba(168,255,0,0.45);
+border: 3px solid rgba(168,255,0,0.45);
 }
 
-/* Read More Button */
+/* Buttons */
 .readme {
-  background: #A8FF00;
-  color: #1C1E22;
-  border: 2px solid #A8FF00;
-  transition: 0.3s;
+background: #A8FF00 !important;
+color: #1C1E22 !important;
+border: 2px solid #A8FF00 !important;
+transition: 0.3s;
 }
 
 .readme:hover {
-  background: #95E000;
-  border-color: #95E000;
+background: #95E000 !important;
+border-color: #95E000 !important;
+color: #1C1E22 !important;
 }
 
-/* Contact Button */
 .contactme {
-  background: transparent;
-  color: #1C1E22;
-  border: 2px solid #1C1E22;
-  transition: 0.3s;
+background: transparent !important;
+color: #1C1E22 !important;
+border: 2px solid #1C1E22 !important;
+transition: 0.3s;
 }
 
 .contactme:hover {
-  background: #A8FF00;
-  color: #1C1E22;
-  border-color: #A8FF00;
+background: #A8FF00 !important;
+color: #1C1E22 !important;
+border-color: #A8FF00 !important;
 }
 
-/* Social Icons */
+/* Social */
 .github:hover,
 .linkedin:hover,
 .angellist:hover {
-  background-color: #A8FF00;
-  color: #1C1E22;
+background-color: #A8FF00 !important;
+color: #1C1E22 !important;
 }
 
-/* Section Titles */
+/* Headings */
 h3 {
-  color: #1C1E22;
+color: #1C1E22;
 }
 
 /* Cards */
 .card {
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
-/* Skill Headings */
+/* Skills */
 #skills h4 {
-  border-bottom: 2px solid #A8FF00;
+border-bottom: 2px solid #A8FF00;
 }
 
-/* Experience Divider */
+/* Experience */
 #experience .card-content .row {
-  border-bottom: 1px solid #d8d8d8;
+border-bottom: 1px solid #d8d8d8;
 }
 
-/* Selection Color */
+/* Selection */
 ::selection {
-  background: #A8FF00;
-  color: #1C1E22;
+background: #A8FF00;
+color: #1C1E22;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F6F7F8;
+background: #F6F7F8;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #A8FF00;
-  border-radius: 10px;
+background: #A8FF00;
+border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #7FB800;
+background: #7FB800;
+}
+
+/* Mobile Menu */
+@media (max-width: 992px) {
+nav {
+background: #ffffff !important;
+}
+
+nav a.button-collapse,
+nav a.button-collapse i {
+color: #7FB800 !important;
+}
 }
