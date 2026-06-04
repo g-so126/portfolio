@@ -1,15 +1,10 @@
 .profile-pic {
-  display: block;
-
   width: 110px;
   height: auto;
-
   margin: 0 auto;
-
+  display: block;
   border: 3px solid rgba(0,77,64,0.4);
   border-radius: 8px;
-
-  max-width: 100%;
 }
 
 .tracker {
@@ -245,7 +240,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 190px;
-  padding: 20px;
+  padding-top: 25px;
   text-align: center;
 } */
 
@@ -254,14 +249,8 @@ ul.side-nav.fixed li.logo {
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 190px;
-  padding: 20px;
+  padding-top: 25px;
   text-align: center;
-}
-
-ul.side-nav.fixed li.logo a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
